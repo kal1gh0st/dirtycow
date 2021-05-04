@@ -1,4 +1,6 @@
 # dirtycow
+![immagine](https://user-images.githubusercontent.com/56889513/117021581-c3fd7780-acf7-11eb-866b-246277392723.png)
+
 Dirty Cow is a silly name, but it's a serious Linux kernel problem. According to the Red Hat bug report, "a race condition was found in the way the Linux kernel's memory subsystem handled the copy-on-write (COW) breakage of private read-only memory mappings. An unprivileged local user could use this flaw to gain write access to otherwise read-only memory mappings and thus increase their privileges on the system."
 
 Dirty Cow Linux Bug
